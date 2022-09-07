@@ -36,7 +36,6 @@ router.get("/getproductone/:id", async (req, res) => {
 // register data
 
 router.post("/register", async (req, res) => {
-  debugger;
   // console.log(req.body);
   const { fname, email, mobile, password, cpassword } = req.body;
 
